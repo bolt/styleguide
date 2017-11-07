@@ -1,0 +1,27 @@
+
+
+// Show the current breakpoints in the lower left corner.
+$debug-breakpoint: true;
+
+// Colors
+$color-accent: rgb(0, 20, 160);
+$color-body: lighten(rgb(251, 251, 246),2);
+$color-text-body: rgb(60, 60, 60);
+$color-text-light: rgb(184, 186, 188);
+$color-ui-light: lighten($color-text-light, 14%);
+
+// Font stacks
+$font-sans-serif  : "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+// $font-serif       : 'Cardo', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+// ------------ Settings for Bulma ---------------
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$tablet: 767px;
+$fullhd: 2000px;
+
+$primary: $color-accent;
+$primary-invert: $color-body;
+$family-primary: $font-sans-serif;
